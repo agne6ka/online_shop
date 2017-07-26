@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $color-black;
+    color: $color-white;
+}
+
+a:focus,
+input:focus {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+    user-select: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+    line-height: 1;
+}
+
+strong {
+    font-weight: normal;
+}
+
+body {
+    overflow-x: hidden;
+    color: $color-cod-gray;
+}

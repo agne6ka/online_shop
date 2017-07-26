@@ -1,0 +1,21 @@
+.new-book-section {
+  &_info {
+    margin: 20px 0;
+    h3 {
+      font-weight: 600;
+    }
+  }
+  &_form {
+    .image-preview {
+      img {
+        width: 200px;
+      }
+    }
+    .error-wrap {
+      span {
+        font-size: 12px;
+        color: $color-red;
+      }
+    }
+  }
+}

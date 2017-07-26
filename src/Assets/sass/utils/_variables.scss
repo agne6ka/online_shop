@@ -1,0 +1,30 @@
+$color-white: #fff;
+$color-black: #000;
+$color-cod-gray: #12100e;
+$color-red: #ff0000;
+$color-cerulean: #0099da;
+$color-old-gold: #caa833;
+$color-lucky: #b18f1c;
+$color-tulip-tree: #ecc439;
+$color-dove-gray: #666666;
+$color-oslo-gray: #808890;
+$color-friar-gray: #85837e;
+$color-gray: #909090;
+$color-silver-sand: #bdc3c6;
+$color-iron: #dee1e3;
+$color-tana: #ddd5c2;
+$color-nomad: #b4b1a6;
+$color-dawn: #adaba4;
+$color-merino: #f9f7ee;
+
+$breakpoints: (
+    'phone-s': 320px,
+    'phone-l': 480px,
+    'tablet-s': 768px,
+    'tablet-l': 959px,
+    'desktop-s': 1100px,
+    'desktop-sm': 1200px,
+    'desktop-m': 1300px,
+    'desktop-l': 1400px,
+    'desktop-xl': 1550px
+);

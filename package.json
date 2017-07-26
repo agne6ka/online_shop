@@ -1,0 +1,35 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "App with books",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agne6ka/books.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "AW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agne6ka/books/issues"
+  },
+  "homepage": "https://github.com/agne6ka/books#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.5.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "include-media": "^1.4.9",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1"
+  }
+}
