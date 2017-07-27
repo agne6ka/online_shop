@@ -1,6 +1,7 @@
 @import
-'vendors/normalize',
-'vendors/bootstrap';
+  'vendors/normalize',
+  'vendors/bootstrap',
+  'vendors/bootstrap-theme';
 
 @import
   'utils/variables',
@@ -12,12 +13,14 @@
   'pages/user-panel';
 
 @import
-'layout/navbar';
+  'layout/navbar',
+  'layout/footer',
+  'layout/hp-slider';
 
 @import
-'components/forms';
+  'components/forms';
 
 @import
-'base/base',
-'base/common',
-'base/typography';
+  'base/base',
+  'base/common',
+  'base/typography';

@@ -2,15 +2,26 @@
 {% set subtitle = "Home page" %}
 {% set path = "" %}
 
+{% block bodyclass %}index{% endblock %}
+
 {% block main %}
 
-    <h2>Index view</h2>
-    <h3>What is there:</h3>
-    <ul>
-        <li>login form</li>
-        <li>register link</li>
-        <li>menu with all groups of subjects</li>
-        <li>slider with few promo stuff</li>
-    </ul>
+    {% include 'components/hp_slider.twig' %}
+
+    <section class="container main-hp-content">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h2>Index view</h2>
+                <h3>What is there:</h3>
+                <ul>
+                    <li>login form</li>
+                    <li>register link</li>
+                    <li>menu with all groups of subjects</li>
+                    <li>slider with few promo stuff</li>
+                </ul>
+            </div>
+            {% include 'components/forms.twig' %}
+        </div>
+    </section>
 
 {% endblock %}

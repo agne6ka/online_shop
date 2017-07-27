@@ -7,7 +7,6 @@ class App {
 
     init() {
         let component = new Component();
-        component.printMessage();
     }
 }
 

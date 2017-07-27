@@ -1,0 +1,18 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 200px;
+  background-image: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%);
+  p {
+    padding-top: 50px;
+    vertical-align: middle;
+    color: $color-white;
+    text-align: center;
+  }
+  @include media-query('tablet'){
+    position: static;
+    margin-top: 20px;
+  }
+}

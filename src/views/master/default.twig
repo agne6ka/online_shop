@@ -1,5 +1,9 @@
 {% include '/base/head.twig' %}
-    <body {% block bodyclass %}{% endblock %}>
+    <body class="{% block bodyclass %}{% endblock %}">
+        {% block navbar %}
+            {% include '/layout/navbar.twig' %}
+        {% endblock %}
+
         {% block header %}
             {% include '/layout/header.twig' %}
         {% endblock %}

@@ -1,12 +1,20 @@
 import $ from 'jquery';
+require('bootstrap');
 
 class Component {
     constructor() {
-        this.message = 'it\'s working!';
+        this.init();
     }
 
-    printMessage() {
-        console.log(this.message);
+    init() {
+        this.initCarousel();
+    }
+
+    initCarousel() {
+
+        $('.carousel').carousel({
+            interval: 5000
+        });
     }
 
 }

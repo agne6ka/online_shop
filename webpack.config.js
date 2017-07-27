@@ -24,6 +24,10 @@ const config = {
     },
     plugins: [
         new ExtractTextPlugin("../css/styles.min.css"),
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
+        })
     ]
 };
 
