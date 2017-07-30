@@ -6643,6 +6643,9 @@ footer {
 .login-form h2 {
   margin-bottom: 10px; }
 
+.register-form {
+  margin-top: 50px; }
+
 *,
 *::before,
 *::after {

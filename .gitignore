@@ -4,3 +4,5 @@ npm-debug.log
 database.php
 package-lock.json
 vendor
+/nbproject
+install_nvm.sh

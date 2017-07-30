@@ -1,10 +1,9 @@
 {% extends '/master/default.twig' %}
 {% set subtitle = "Registration form" %}
-{% set path = "../" %}
+{% set path = "" %}
 
 {% block main %}
 
-    <h2>Register view</h2>
-    <p>Form for adding user</p>
+    {% include 'components/form_register.twig' %}
 
 {% endblock %}
